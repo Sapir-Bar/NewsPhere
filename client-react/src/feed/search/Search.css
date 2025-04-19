@@ -1,0 +1,34 @@
+.Search {
+    margin-top: 15px;
+    margin-left: 0px;
+    position: relative;
+  }
+  
+  .input-field {
+    padding-right: 40px; /* Adjust the space for the button */
+  }
+  
+  .search-button {
+    position: absolute;
+    right: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none; /* Remove the border */
+    cursor: pointer;
+    padding: 5px; /* Adjust the padding to make the button smaller */
+  }
+  
+  .search-button:hover {
+    background: #3795b1;
+  }
+  
+  .search-button svg {
+    fill: #0b5f2e; /* Adjust color as needed */
+    width: 20px; /* Adjust the size of the button */
+    height: 20px; /* Adjust the size of the button */
+  }
+  
+  .search-button:hover svg {
+    fill: #555; /* Adjust color as needed */
+  }

@@ -1,0 +1,160 @@
+[
+  {
+    "author_nickname": "Alice",
+    "author_image": "https://png.pngtree.com/png-vector/20221203/ourmid/pngtree-cartoon-style-female-user-profile-icon-vector-illustraton-png-image_6489286.png",
+    "content": "Meiosis is a specialized form of cellular division crucial for the production of gametes sperm and egg cells in sexually reproducing organisms.",
+    "image": "https://png.pngtree.com/png-clipart/20230824/original/pngtree-prometaphase-part-of-the-mitosis-cell-cycle-scheme-picture-image_8432979.png",
+    "likes": 10,
+    "date": "2022-02-14 12:30:00",
+    "postID": 0,
+    "comments": [
+      {
+      "author_nickname": "Alice",
+      "author_image": "https://png.pngtree.com/png-vector/20221203/ourmid/pngtree-cartoon-style-female-user-profile-icon-vector-illustraton-png-image_6489286.png",
+      "content": "What a magical biological process!",
+       "postId": 0
+      },
+      {
+        "author_nickname": "Bob",
+        "author_image": "https://png.pngtree.com/png-vector/20221203/ourmid/pngtree-cartoon-style-male-user-profile-icon-vector-illustraton-png-image_6489287.png",
+        "content": "Wow!",
+        "postId": 0
+      }
+    ]
+  },
+  {
+    "author_nickname": "Bob",
+    "author_image": "https://png.pngtree.com/png-vector/20221203/ourmid/pngtree-cartoon-style-male-user-profile-icon-vector-illustraton-png-image_6489287.png",
+    "content": "During prophase, chromatin condenses into distinct chromosomes, each consisting of two sister chromatids connected by a centromere.",
+    "image": "https://png.pngtree.com/png-clipart/20230824/original/pngtree-prometaphase-part-of-the-mitosis-cell-cycle-scheme-picture-image_8432979.png",
+    "likes": 10,
+    "date": "2022-02-14 12:30:00",
+    "postID": 1,
+    "comments": [{
+      "author_nickname": "Alice",
+      "author_image": "https://png.pngtree.com/png-vector/20221203/ourmid/pngtree-cartoon-style-female-user-profile-icon-vector-illustraton-png-image_6489286.png",
+      "content": "What a magical biological process!",""
+      "postId": 1
+    }]
+  },
+  {
+    "author_nickname": "Alice",
+    "author_image":  "https://png.pngtree.com/png-vector/20221203/ourmid/pngtree-cartoon-style-female-user-profile-icon-vector-illustraton-png-image_6489286.png",
+    "content": "Metaphase sees the alignment of chromosomes along the cell's equator, forming the metaphase plate in preparation for separation.",
+    "image": "https://png.pngtree.com/png-clipart/20230824/original/pngtree-prometaphase-part-of-the-mitosis-cell-cycle-scheme-picture-image_8432979.png",
+    "likes": 10,
+    "date": "2022-02-14 12:30:00",
+    "postID": 2,
+    "comments": [{
+      "author_nickname": "Alice",
+      "author_image": "https://png.pngtree.com/png-vector/20221203/ourmid/pngtree-cartoon-style-female-user-profile-icon-vector-illustraton-png-image_6489286.png",
+      "content": "What a magical biological process!",
+      "postId": 2
+    }]
+  },
+  {
+    "author_nickname": "Bob",
+    "author_image": "https://png.pngtree.com/png-vector/20221203/ourmid/pngtree-cartoon-style-male-user-profile-icon-vector-illustraton-png-image_6489287.png",
+    "content": "Anaphase triggers the separation of sister chromatids, pulling them to opposite poles of the cell via spindle fibers.",
+    "image": "https://png.pngtree.com/png-clipart/20230824/original/pngtree-prometaphase-part-of-the-mitosis-cell-cycle-scheme-picture-image_8432979.png",
+    "likes": 10,
+    "date": "2022-02-14 12:30:00",
+    "postID": 3,
+    "comments": [{
+      "author_nickname": "Alice",
+      "author_image": "https://png.pngtree.com/png-vector/20221203/ourmid/pngtree-cartoon-style-female-user-profile-icon-vector-illustraton-png-image_6489286.png",
+      "content": "What a magical biological process!",
+      "postId": 3
+    }]
+  },
+  {
+    "author_nickname": "Alice",
+    "author_image":  "https://png.pngtree.com/png-vector/20221203/ourmid/pngtree-cartoon-style-female-user-profile-icon-vector-illustraton-png-image_6489286.png",
+    "content": "In telophase, the separated chromatids reach the cell poles, and nuclear envelopes reform around each set of chromosomes.",
+    "image": "https://png.pngtree.com/png-clipart/20230824/original/pngtree-prometaphase-part-of-the-mitosis-cell-cycle-scheme-picture-image_8432979.png",
+    "likes": 10,
+    "date": "2022-02-14 12:30:00",
+    "postID": 4,
+    "comments": [{
+      "author_nickname": "Alice",
+      "author_image": "https://png.pngtree.com/png-vector/20221203/ourmid/pngtree-cartoon-style-female-user-profile-icon-vector-illustraton-png-image_6489286.png",
+      "content": "What a magical biological process!",
+      "postId": 4
+    }]
+  },
+  {
+    "author_nickname": "Bob",
+    "author_image": "https://png.pngtree.com/png-vector/20221203/ourmid/pngtree-cartoon-style-male-user-profile-icon-vector-illustraton-png-image_6489287.png",
+    "content": "Cytokinesis, the final step, completes the division by physically splitting the cell into two distinct daughter cells.",
+    "image": "https://png.pngtree.com/png-clipart/20230824/original/pngtree-prometaphase-part-of-the-mitosis-cell-cycle-scheme-picture-image_8432979.png",
+    "likes": 10,
+    "date": "2022-02-14 12:30:00",
+    "postID": 5,
+    "comments": [{
+      "author_nickname": "Alice",
+      "author_image": "https://png.pngtree.com/png-vector/20221203/ourmid/pngtree-cartoon-style-female-user-profile-icon-vector-illustraton-png-image_6489286.png",
+      "content": "What a magical biological process!",
+      "postId": 5
+    }]
+  },
+  {
+    "author_nickname": "Alice",
+    "author_image":  "https://png.pngtree.com/png-vector/20221203/ourmid/pngtree-cartoon-style-female-user-profile-icon-vector-illustraton-png-image_6489286.png",
+    "content": "Mitosis plays a vital role in growth, repair, and maintenance of multicellular organisms by ensuring genetic continuity.",
+    "image": "https://png.pngtree.com/png-clipart/20230824/original/pngtree-prometaphase-part-of-the-mitosis-cell-cycle-scheme-picture-image_8432979.png",
+    "likes": 10,
+    "date": "2022-02-14 12:30:00",
+    "postID": 6,
+    "comments": [{
+      "author_nickname": "Alice",
+      "author_image": "https://png.pngtree.com/png-vector/20221203/ourmid/pngtree-cartoon-style-female-user-profile-icon-vector-illustraton-png-image_6489286.png",
+      "content": "What a magical biological process!",
+      "postId": 6
+    }]
+  },
+  {
+    "author_nickname": "Bob",
+    "author_image": "https://png.pngtree.com/png-vector/20221203/ourmid/pngtree-cartoon-style-male-user-profile-icon-vector-illustraton-png-image_6489287.png",
+    "content": "Regulated by a complex series of checkpoints, mitosis ensures accurate cell division and prevents abnormalities.",
+    "image": "https://png.pngtree.com/png-clipart/20230824/original/pngtree-prometaphase-part-of-the-mitosis-cell-cycle-scheme-picture-image_8432979.png",
+    "likes": 10,
+    "date": "2022-02-14 12:30:00",
+    "postID": 7,
+    "comments": [{
+      "author_nickname": "Alice",
+      "author_image": "https://png.pngtree.com/png-vector/20221203/ourmid/pngtree-cartoon-style-female-user-profile-icon-vector-illustraton-png-image_6489286.png",
+      "content": "What a magical biological process!",
+      "postId": 7
+    }]
+  },
+  {
+    "author_nickname": "Alice",
+    "author_image":  "https://png.pngtree.com/png-vector/20221203/ourmid/pngtree-cartoon-style-female-user-profile-icon-vector-illustraton-png-image_6489286.png",
+    "content": "Cells undergoing mitosis progress through distinct phases, each marked by specific events and molecular changes.",
+    "image": "https://png.pngtree.com/png-clipart/20230824/original/pngtree-prometaphase-part-of-the-mitosis-cell-cycle-scheme-picture-image_8432979.png",
+    "likes": 10,
+    "date": "2022-02-14 12:30:00",
+    "postID": 8,
+    "comments": [{
+      "author_nickname": "Alice",
+      "author_image": "https://png.pngtree.com/png-vector/20221203/ourmid/pngtree-cartoon-style-female-user-profile-icon-vector-illustraton-png-image_6489286.png",
+      "content": "What a magical biological process!",
+      "postId": 8
+    }]
+  },
+  {
+    "author_nickname": "Bob",
+    "author_image": "https://png.pngtree.com/png-vector/20221203/ourmid/pngtree-cartoon-style-male-user-profile-icon-vector-illustraton-png-image_6489287.png",
+    "content": "Mitosis is a finely orchestrated dance of molecular processes, choreographed to maintain genomic stability and cellular functionality.",
+    "image": "https://png.pngtree.com/png-clipart/20230824/original/pngtree-prometaphase-part-of-the-mitosis-cell-cycle-scheme-picture-image_8432979.png",
+    "likes": 10,
+    "date": "2022-02-14 12:30:00",
+    "postID": 9,
+    "comments": [{
+      "author_nickname": "Alice",
+      "author_image": "https://png.pngtree.com/png-vector/20221203/ourmid/pngtree-cartoon-style-female-user-profile-icon-vector-illustraton-png-image_6489286.png",
+      "content": "What a magical biological process!",
+      "postId": 9
+    }]
+  }
+]

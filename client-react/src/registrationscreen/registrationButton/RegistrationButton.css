@@ -1,0 +1,12 @@
+.RegistrationButton {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack children vertically */
+    align-items: flex-start; /* Align children to the start of the container */
+  }
+  
+  .RegistrationButton h3,
+  .RegistrationButton input,
+  .RegistrationButton p {
+    margin: 5px; /* Adjust the value as needed */
+  }
+  

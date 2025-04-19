@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Background -->
+  
+  <!-- Graph Connections -->
+  <g id="connections">
+    <!-- B -->
+    <line x1="100" y1="100" x2="100" y2="300" stroke="#333" stroke-width="3" />
+    <line x1="100" y1="100" x2="160" y2="160" stroke="#333" stroke-width="3" />
+    <line x1="160" y1="160" x2="100" y2="210" stroke="#333" stroke-width="3" />
+    <line x1="100" y1="210" x2="100" y2="300" stroke="#333" stroke-width="3" />
+    <!-- Additional lines for B -->
+    <line x1="100" y1="300" x2="160" y2="250" stroke="#333" stroke-width="3" />
+    <line x1="160" y1="250" x2="100" y2="210" stroke="#333" stroke-width="3" />
+    <!-- I -->
+    <line x1="220" y1="100" x2="220" y2="300" stroke="#333" stroke-width="3" />
+    <!-- U -->
+    <line x1="310" y1="100" x2="320" y2="300" stroke="#333" stroke-width="3" />
+    <line x1="320" y1="300" x2="440" y2="300" stroke="#333" stroke-width="3" />
+    <line x1="440" y1="300" x2="450" y2="100" stroke="#333" stroke-width="3" />
+  </g>
+  
+  <!-- Graph Nodes -->
+  <g id="nodes">
+    <!-- Example nodes, you can add more as needed -->
+    <!-- B -->
+    
+    <circle cx="100" cy="104" r="20" fill="#ff" />
+  <!-- Complete Circle -->
+<circle cx="100" cy="100" r="10" fill="#ff00ff" /> 
+  <!-- Half Circle -->
+  <path d="M 85 115 A 20 25 0 0 1 115 115" fill="#ff00ff" /> 
+    <circle cx="100" cy="210" r="10" fill="#ff00ff" />
+    <circle cx="160" cy="160" r="10" fill="#ff00ff" />
+    <circle cx="100" cy="300" r="10" fill="#ff00ff" />
+    <circle cx="160" cy="250" r="10" fill="#ff00ff" />
+    <!-- I -->
+    <circle cx="220" cy="100" r="10" fill="#ff00ff" />
+    <circle cx="220" cy="300" r="10" fill="#ff00ff" />
+    <!-- U -->
+    <circle cx="310" cy="100" r="10" fill="#ff00ff" />
+    <circle cx="320" cy="300" r="10" fill="#ff00ff" />
+    <circle cx="450" cy="100" r="10" fill="#ff00ff" />
+    <circle cx="440" cy="300" r="10" fill="#ff00ff" />
+  </g>
+</svg>

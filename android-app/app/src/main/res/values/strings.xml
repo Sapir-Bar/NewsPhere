@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">NewsSphere</string>
+    <string name="textview">TextView</string>
+    <string name="login_etUsername">Username</string>
+    <string name="login_etPassword">Password</string>
+    <string name="login_btnLogin">Login</string>
+    <string name="login_btnRegister">Create a new account</string>
+    <string name="register_tvHeader">Please fill the information</string>
+    <string name="register_tvProfileImage">Profile Image</string>
+    <string name="register_tvUploadImage">Please upload an image of you</string>
+    <string name="register_etConfirmPassword">Confirm Password</string>
+    <string name="register_tvPasswordLogic">Your password must be at least 8 characters long and include a combination of letters and numbers to ensure strong security.</string>
+    <string name="register_etNickname">Nickname</string>
+    <string name="register_btnConfirm">Confirm registration</string>
+    <string name="editPost_btnSave">Save</string>
+    <string name="editPost_btnEditImage">Edit Image</string>
+    <string name="unliked">Tap to like</string>
+    <string name="liked">liked</string>
+    <string name="comment_et">Write a comment...</string>
+    <string name="addPost_etContent">What are you thinking about?</string>
+    <string name="addPost_btnPublish">publish</string>
+    <string name="addPost_missingContent">Please add description</string>
+    <string name="BaseUrl">http://192.168.210.101:12345/api/</string>
+    <string name="welcome_back_user">Welcome back</string>
+    <string name="btnProfile">Watch profile</string>
+    <string name="btnFriendReq">Send friend request</string>
+    <string name="addPost_prohibitedContent">"We're sorry, but the link you're attempting to include in your post has been flagged as prohibited content. "</string>
+
+</resources>

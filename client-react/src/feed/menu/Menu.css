@@ -1,0 +1,30 @@
+.vertical-menu {
+    width: 200px; /* Adjust the width as needed */
+    /* Facebook's side menu background color */
+    position: fixed;
+    top: 100;
+    left: 0;
+    bottom: 500;
+    /*bottom: calc(100vh - 100px);  Adjust this value as needed */
+    padding: 20px;
+    
+    
+  }
+  
+  .vertical-menu button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: none; /* Facebook's blue color */
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .vertical-menu button:hover {
+    background-color: #2d4373; /* Darker shade of Facebook's blue color */
+    
+  }

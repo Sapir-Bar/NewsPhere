@@ -1,0 +1,53 @@
+.container {
+    width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 20px;
+    font: 0.5em sans-serif;
+    display: flex; /* Make container a flexbox */
+    flex-direction: row;
+  }
+  
+  .column {
+    flex: 1; /* Each column takes equal space */
+  }
+  
+  .section {
+    margin-bottom: 2px;
+    color: #190fb2;
+    font: 1.5em sans-serif;
+  }
+  
+  .divider {
+    border-top: 1px solid #ccc;
+  }
+  
+  .bottom-bar {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .text-input {
+    position: relative;
+  }
+  
+  .text-input input {
+    width: 100%;
+    padding: 5px;
+    font-size: inherit;
+    border: none; /* Remove border */
+    border-bottom: 1px solid #ccc; /* Add bottom border */
+  }
+  
+  .text-input .caption {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: #999;
+    font-size: 0.8em;
+  }
+  .title{
+    padding: 5px;
+  }

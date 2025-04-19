@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management</title>
+</head>
+<body>
+    <h1>Create a New User</h1>
+    <label for="username">Username:</label>
+    <input type="text" id="username"><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password"><br>
+
+    <label for="imageURL">Image URL:</label>
+    <input type="text" id="imageURL"><br>
+
+    <button onclick="createUser()">Add User</button><br>
+
+    <h1>All Users</h1>
+    <button onclick="getAllUsers()">Get All Users</button><br>
+
+    <div id="usersContainer"></div>
+
+    <button onclick="test_for_exists()">exists</button><br>
+    <button onclick="switchColor()">Switch Colors</button><br>
+
+    <script>
+        async function createUser() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const imageURL = document.getElementById('imageURL').value;
+
+            // Check if username and password are provided
+            if (!username || !password) {
+                console.error('Username and password are required');
+                return;
+            }
+
+            const userData = {
+                username: username,
+                password: password,
+                image: imageURL
+            };
+
+            try {
+                const response = await fetch('http://localhost:12345/users', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(userData)
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to add user');
+                }
+
+                const newUser = await response.json();
+                console.log('New user:', newUser);
+
+                // Clear input fields after adding user
+                document.getElementById('username').value = '';
+                document.getElementById('password').value = '';
+                document.getElementById('imageURL').value = '';
+
+            } catch (error) {
+                console.error('Error adding user:', error);
+            }
+        }
+
+        async function getAllUsers() {
+            const response = await fetch('http://localhost:12345/users');
+            const users = await response.json();
+            console.log(users);
+            // Display users in the usersContainer div
+            const usersContainer = document.getElementById('usersContainer');
+            usersContainer.innerHTML = '';
+            
+            users.forEach(user => {
+                const userElement = document.createElement('div');
+                userElement.innerHTML = `
+                    <h3>${user.username}</h3>
+                    <p>Password: ${user.password}</p>
+                `;
+                usersContainer.appendChild(userElement);
+            });
+        }
+
+        async function switchColor() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Check if username and password match any of the users
+            const response = await fetch('http://localhost:12345/users');
+            const users = await response.json();
+
+            const foundUser = users.find(user => user.username === username && user.password === password);
+            if (foundUser) {
+                document.body.style.backgroundColor = getRandomColor();
+            } else {
+                alert('Invalid username or password');
+            }
+        }
+async function test_for_exists() {
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+
+    // Check if username and password match any of the users
+    try {
+        const response = await fetch(`http://localhost:12345/users/login`);
+        const userData = await response.json();
+
+        if (userData.exists) {
+            alert('This username already exists.');
+        } else {
+            // Proceed with other actions or display a different message
+            alert('Username is available.');
+        }
+    } catch (error) {
+        console.error('Error:', error);
+        alert('An error occurred while checking user existence.');
+    }
+}
+
+        function getRandomColor() {
+            const letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+    </script>
+</body>
+</html>

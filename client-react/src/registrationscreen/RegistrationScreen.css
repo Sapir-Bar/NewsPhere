@@ -1,0 +1,57 @@
+.RegistrationScreen {
+  text-align: left;
+  background-color: #e2eaf9;
+  
+}
+
+.RegistrationScreen-logo {
+  height: 10vmin;
+  pointer-events:none
+}
+
+.RegistrationScreen-biu {
+  height: 40vmin;
+  margin-left:  200px;
+
+}
+
+.RegistrationScreen .content {
+  
+  min-height: 50ch;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: up; /* This should be changed to justify-content: flex-start; */
+  font-size: calc(1px + 2vmin);
+  color: rgb(17, 10, 10);
+}
+.RegistrationScreen .content {
+  min-height: 50ch;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; /* Change to flex-start */
+  font-size: calc(1px + 2vmin);
+  color: rgb(17, 10, 10);
+}
+
+.RegistrationScreen .header {
+  background-color: #1e3e7d;
+  color: rgb(252, 250, 250);
+ 
+  display: flex; /* Display children in a row */
+  flex-direction: row;
+  align-items:flex-start;/* Align children vertically */
+}
+.button{
+  margin: 10px;
+}
+
+.input-field{
+  margin: 10px;
+}
+.content1{
+  margin-left:  200px;
+  flex-direction: column;
+  align-items:center;
+   text-align: center;
+}

@@ -1,0 +1,92 @@
+.LoginScreenScreen {
+    text-align: left;
+  }
+  
+  .LoginScreen-logo {
+    height: 10vmin;
+    pointer-events:none
+  }
+  
+
+  
+  .LoginScreen .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center; /* This should be changed to justify-content: flex-start; */
+    font-size: calc(10px + 2vmin);
+    color: rgb(17, 10, 10);
+    height: 100vh;
+  }
+
+  
+  .LoginScreen {
+    background-color: #e2eaf9;
+  }
+  
+  .LoginScreen .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1e3e7d;
+    position: fixed;
+    margin-bottom: 20px;
+    
+    padding-right: 2000px;
+    
+  }
+  
+  .content {
+
+    text-align: center;
+  }
+ 
+  .input-container {
+    margin-bottom: 15px;
+  }
+  .login{
+    margin-bottom: 15px;
+    font-size: 20pt;
+    
+  }
+  .input-field {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  button {
+    background-color: #2b8f2f; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+  }
+  
+  button:hover {
+    background-color: #39b550; /* Darker Green */
+    color: white;
+  }
+  .signUp{
+    margin: 20px;
+    margin-left: 69%;
+    color: white;
+   
+      max-height: 4px;
+      
+    
+  }
+  .signUpt{
+    white-space: nowrap;
+    margin-left: 9%;
+    margin-right:3ch;
+    color: white;
+      max-height: 400px;
+    
+  }

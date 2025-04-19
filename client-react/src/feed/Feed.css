@@ -1,0 +1,81 @@
+html, body {
+  height: 100%; /* Ensure both html and body take up the full height of the viewport */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.Feed {
+  text-align: left;
+  background-color: #e2eaf9;
+  display: flex; /* Set display to flex */
+  flex-direction: column;
+  min-height: 100%; /* Ensure the container stretches to at least the height of the viewport */
+}
+
+.Feed-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+.content {
+  padding: 100px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(8px + 1.2vmin);
+  color: rgb(27, 36, 166);
+  /* Remove height: 100vh; */
+  
+}
+
+.content1 {
+  padding: 25px;
+  display:flex;
+
+  align-items:last baseline;
+ /* justify-content: flex-start;*/
+  font-size: calc(20px + 1.2vmin);
+  color: rgb(226, 227, 243);
+  /* Remove height: 100vh; */
+  
+} 
+
+.Feed .header {
+  display: flex;
+  align-items: flex-start;
+  background-color: #1e3e7d;
+  margin-bottom: 20px;
+  position: fixed;
+  padding-right: 2000px;
+}
+
+.feeddarkmodebutton{
+  padding-right: 2000px;
+  
+}
+.posts{
+  
+    max-width: 100%; /* Limit image width to prevent overflow */
+    height:min-content; /* Ensure aspect ratio is preserved */
+
+  
+}
+.DarkModeFeed {
+  text-align: left;
+  background-color: #0a0a0b;
+  display: flex; /* Set display to flex */
+  flex-direction: column;
+  min-height: 100%; /* Ensure the container stretches to at least the height of the viewport */
+}
+
+.DarkModeFeed .header {
+  
+    display: flex;
+    align-items: flex-start;
+    background-color: #1e3e7d;
+    margin-bottom: 20px;
+    position: fixed;
+    padding-right: 2000px;
+  
+}

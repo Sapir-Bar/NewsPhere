@@ -1,0 +1,9 @@
+#howToAddNode_modules-
+npm i
+
+#how to run the react and the server together
+על הריאקט:
+npm run build
+פותח תקייה שמכילה את הקוד שלנו בצורה פשוט וקורא לקבצים שמכילים ממש את הלוגיקה שלנו(עובר טרנספילציה לjava skript רגיל)
+מעתיקים את זה אל התקייה של השרת
+מריצים אותו ומקבלים את הREACT
