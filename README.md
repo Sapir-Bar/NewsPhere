@@ -58,16 +58,11 @@ mongod
 In a separate terminal:
 
 ```bash
-# Decode and import users
-base64 -d foobar.users.base64.json > foobar.users.json
-mongoimport --db newsphere --collection users --file foobar.users.json --jsonArray
-
-# Decode and import posts
-base64 -d foobar.posts.base64.json > foobar.posts.json
-mongoimport --db newsphere --collection posts --file foobar.posts.json --jsonArray
+mongoimport --db newsphere --collection users --file web-service/users.json --jsonArray
+mongoimport --db newsphere --collection posts --file web-service/posts.json --jsonArray
 ```
 
-> The files `foobar.posts.base64.json` and `foobar.users.base64.json` are located in `web-service/`.
+> The files `posts.json` and `users.json` are located in `web-service/`.
 ---
 
 ## Run the Services
