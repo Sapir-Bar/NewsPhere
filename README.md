@@ -103,7 +103,7 @@ g++ ./*.cpp -o bloom_filter_server -pthread
 
 ## Architecture Diagram
 
-![NewsSphere Architecture](docs/Images/architecture_diagram.png)
+![NewsSphere Architecture](docs/Photos/architecture_diagram.png)
 
 ---
 
