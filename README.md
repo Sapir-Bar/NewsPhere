@@ -41,8 +41,6 @@ cd NewsPhere
 - **Android Studio** (to run the mobile app)
 - **g++ / CMake** (for the Bloom filter service)
 
-> See full details in [`docs/settingUpWorkSpace.md`](docs/settingUpWorkSpace.md)
-
 ---
 
 ## MongoDB Initialization
@@ -69,8 +67,7 @@ base64 -d foobar.posts.base64.json > foobar.posts.json
 mongoimport --db newsphere --collection posts --file foobar.posts.json --jsonArray
 ```
 
-> The files `foobar.posts.base64.json` and `foobar.users.base64.json` are located in `web-service/` or provided in the project.
-
+> The files `foobar.posts.base64.json` and `foobar.users.base64.json` are located in `web-service/`.
 ---
 
 ## Run the Services
@@ -111,7 +108,7 @@ g++ ./*.cpp -o bloom_filter_server -pthread
 
 ## Architecture Diagram
 
-![NewsSphere Architecture](docs/Images/project_architecture.png)
+![NewsSphere Architecture](docs/Images/architecture_diagram.png)
 
 ---
 
