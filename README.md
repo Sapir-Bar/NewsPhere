@@ -30,7 +30,7 @@ NewsPhere/
 ### 1. Clone the Monorepo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/NewsPhere.git
+git clone https://github.com/Sapir-Bar/NewsPhere.git
 cd NewsPhere
 ```
 
@@ -111,7 +111,7 @@ g++ ./*.cpp -o bloom_filter_server -pthread
 
 ## Architecture Diagram
 
-![NewsSphere Architecture](./f94f5a80-1389-4ec9-aa6d-65f82c3328b5.png)
+![NewsSphere Architecture](docs/Images/project_architecture.png)
 
 ---
 
